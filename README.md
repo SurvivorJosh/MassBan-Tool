@@ -2,6 +2,9 @@
 discord mass ban tool i guess. if it's showing errors fix it yourself
 
 # Requirements
+```bash
+pip install -r requirements.txt
+```
 tasksio
 requests
 aiohttp
