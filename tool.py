@@ -2,6 +2,9 @@ import asyncio, os, requests
 import aiohttp
 import tasksio, time
 
+// slowwrite text for good looking ux
+def slow_write(text):
+    for x in text: print('' + x, end="");sys.stdout.flush();time.sleep(0.005)
 
 token = input("Token: ")
 guild_id = input("Guild Id: ")
